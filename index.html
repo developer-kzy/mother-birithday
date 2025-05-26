@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>亲爱的妈妈 ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://gosspublic.alicdn.com/aliyun-oss-sdk-6.17.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="initial-view" class="view active">
+            <div class="gift-box">
+                <img src="https://cdn3.iconfinder.com/data/icons/birthday-party-28/64/gift-present-birthday-surprise-512.png" alt="礼物盒" class="gift-image">
+                <p class="message">亲爱的妈妈，点击礼物盒打开您的惊喜~</p>
+            </div>
+        </div>
+
+        <div id="lottery-view" class="view">
+            <div class="red-packets">
+                <div class="red-packet" data-value="0.1">
+                    <img src="https://cdn4.iconfinder.com/data/icons/chinese-new-year-2070/64/red_envelope_pocket_chinese_newyear_money-512.png" alt="红包">
+                </div>
+                <div class="red-packet" data-value="1">
+                    <img src="https://cdn4.iconfinder.com/data/icons/chinese-new-year-2070/64/red_envelope_pocket_chinese_newyear_money-512.png" alt="红包">
+                </div>
+                <div class="red-packet" data-value="5">
+                    <img src="https://cdn4.iconfinder.com/data/icons/chinese-new-year-2070/64/red_envelope_pocket_chinese_newyear_money-512.png" alt="红包">
+                </div>
+                <div class="red-packet" data-value="10">
+                    <img src="https://cdn4.iconfinder.com/data/icons/chinese-new-year-2070/64/red_envelope_pocket_chinese_newyear_money-512.png" alt="红包">
+                </div>
+                <div class="red-packet" data-value="50">
+                    <img src="https://cdn4.iconfinder.com/data/icons/chinese-new-year-2070/64/red_envelope_pocket_chinese_newyear_money-512.png" alt="红包">
+                </div>
+                <div class="red-packet" data-value="100">
+                    <img src="https://cdn4.iconfinder.com/data/icons/chinese-new-year-2070/64/red_envelope_pocket_chinese_newyear_money-512.png" alt="红包">
+                </div>
+            </div>
+        </div>
+
+        <div id="result-view" class="view">
+            <div class="result-container">
+                <h2>🎉 恭喜您获得</h2>
+                <div class="prize-amount">￥200</div>
+                <div class="birthday-message">
+                    <p>亲爱的妈妈：</p>
+                    <p>生日快乐！🎂</p>
+                    <p>愿您永远健康快乐！</p>
+                    <p>我永远爱您！❤️</p>
+                </div>
+                <div class="upload-section">
+                    <p>请上传您的收款码以领取红包</p>
+                    <input type="file" id="qr-upload" accept="image/*">
+                    <button id="upload-btn">上传收款码</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html> 
